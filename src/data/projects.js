@@ -5,7 +5,7 @@ export const projects = [
     location: "Durgapur, West Bengal",
     type: "Residential Plots",
     price: "₹15,00,000",
-    image: "/images/project2.jpg",
+    image: `${import.meta.env.BASE_URL}images/project1.jpg`,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const projects = [
     location: "Asansol, West Bengal",
     type: "Residential Plots",
     price: "₹12,50,000",
-    image: "/images/project2.jpg",
+    image: `${import.meta.env.BASE_URL}images/project2.jpg`,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const projects = [
     location: "Kolkata, West Bengal",
     type: "Residential Plots",
     price: "₹18,00,000",
-    image: "/images/project3.jpg",
+    image: `${import.meta.env.BASE_URL}images/project3.jpg`,
   },
   {
     id: 4,
@@ -29,6 +29,6 @@ export const projects = [
     location: "Raniganj, West Bengal",
     type: "Commercial Plots",
     price: "₹18,00,000",
-    image: "/images/project4.jpg",
+    image: `${import.meta.env.BASE_URL}images/project4.jpg`,
   },
 ];
